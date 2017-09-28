@@ -1,0 +1,22 @@
+.u-ff {
+	&--primary {
+		font-family: $cwg-font-primary, $cwg-font-family-sans-serif;
+		font-weight: normal;
+	}
+
+	// &--secondary {
+	// 	font-family: $cwg-font-secondary, $cwg-font-family-sans-serif;	
+	// }
+
+	&--sans {
+		font-family: $cwg-font-primary, $cwg-font-family-sans-serif;
+	}
+
+	&--serif {
+		font-family: $cwg-font-family-serif;
+	}
+
+	&--mono {
+		font-family: $cwg-font-family-mono;
+	}
+}

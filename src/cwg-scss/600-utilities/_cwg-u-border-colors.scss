@@ -1,0 +1,38 @@
+.u-bc {
+	&--primary-dark { border-color: $cwg-primary-dark; }
+	&--primary { border-color: $cwg-primary; }
+	&--primary-light { border-color: $cwg-primary-light; }
+	&--primary-accent { border-color: $cwg-primary-accent; }
+	&--secondary-dark { border-color: $cwg-secondary-dark; }
+	&--secondary { border-color: $cwg-secondary; }
+	&--secondary-light { border-color: $cwg-secondary-light; }
+	&--secondary-accent { border-color: $cwg-secondary-accent; }
+	&--accent-dark { border-color: $cwg-accent-dark; }
+	&--accent { border-color: $cwg-accent; }
+	&--accent-light { border-color: $cwg-accent-light; }
+	&--accent-accent { border-color: $cwg-accent-accent; }
+	&--success { border-color: $cwg-success; }
+	&--warning { border-color: $cwg-warning; }
+	&--error { border-color: $cwg-error; }
+	&--info { border-color: $cwg-info; }
+	&--warm-100 { border-color: $cwg-warm-100; }
+	&--warm-90 { border-color: $cwg-warm-90; }
+	&--warm-50 { border-color: $cwg-warm-50; }
+	&--warm-40 { border-color: $cwg-warm-40; }
+	&--warm-30 { border-color: $cwg-warm-30; }
+	&--warm-20 { border-color: $cwg-warm-20; }
+	&--warm-10 { border-color: $cwg-warm-10; }
+	&--cool-100 { border-color: $cwg-cool-100; }
+	&--cool-90 { border-color: $cwg-cool-90; }
+	&--cool-80 { border-color: $cwg-cool-80; }
+	&--cool-40 { border-color: $cwg-cool-40; }
+	&--cool-30 { border-color: $cwg-cool-30; }
+	&--cool-20 { border-color: $cwg-cool-20; }
+	&--cool-10 { border-color: $cwg-cool-10; }
+	&--black { border-color: $cwg-black; }
+	&--true-black { border-color: $cwg-true-black; }
+	&--white { border-color: $cwg-white; }
+	&--true-white { border-color: $cwg-true-white; }
+	
+	&--inherit { backgorund-color: inherit; }
+}

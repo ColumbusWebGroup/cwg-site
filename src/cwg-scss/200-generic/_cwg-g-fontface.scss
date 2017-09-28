@@ -1,0 +1,11 @@
+﻿/* Using 100-tools/_cwg-t-mixin-fontface.scss to generate consistent @import of font files */
+/* Using 000-settings/_cwg-var-fonts.scss for font stack and file path */
+
+@include fontFace($cwg-font-primary, $cwg-font-primary-file-path-300, 300, normal);
+@include fontFace($cwg-font-primary, $cwg-font-primary-file-path-regular, 400, normal);
+@include fontFace($cwg-font-primary, $cwg-font-primary-file-path-italic, 400, italic);
+@include fontFace($cwg-font-primary, $cwg-font-primary-file-path-700, 700, normal);
+
+@include fontFace($cwg-font-secondary, $cwg-font-secondary-file-path-regular, 400, normal);
+
+@include fontFace($cwg-font-mono, $cwg-font-mono-file-path, 400, normal);

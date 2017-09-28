@@ -1,0 +1,12 @@
+.u-hover {
+	&--dim-10:hover, &--dim-10:focus { opacity: 0.9; }
+	&--dim-20:hover, &--dim-20:focus { opacity: 0.8; }
+	&--dim-20:hover, &--dim-20:focus { opacity: 0.8; }
+	&--dim-30:hover, &--dim-30:focus { opacity: 0.7; }
+	&--dim-40:hover, &--dim-40:focus { opacity: 0.6; }
+	&--dim-50:hover, &--dim-50:focus { opacity: 0.5; }
+	&--dim-60:hover, &--dim-60:focus { opacity: 0.4; }
+	&--dim-70:hover, &--dim-70:focus { opacity: 0.3; }
+	&--dim-80:hover, &--dim-80:focus { opacity: 0.2; }
+	&--dim-90:hover, &--dim-90:focus { opacity: 0.1; }
+}

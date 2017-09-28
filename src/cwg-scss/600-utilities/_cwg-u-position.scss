@@ -1,0 +1,6 @@
+.u-p {
+	&--sta  { position: static; }
+	&--rel  { position: relative; }
+	&--abs  { position: absolute; }
+	&--fix  { position: fixed; }
+}

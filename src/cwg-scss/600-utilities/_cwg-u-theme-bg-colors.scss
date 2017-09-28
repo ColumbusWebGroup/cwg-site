@@ -1,0 +1,74 @@
+.u-bg {
+	&--primary-dark { background-color: $cwg-primary-dark; }
+	&--primary { background-color: $cwg-primary; }
+	&--primary-light { background-color: $cwg-primary-light; }
+	&--primary-accent { background-color: $cwg-primary-accent; }
+	&--secondary-dark { background-color: $cwg-secondary-dark; }
+	&--secondary { background-color: $cwg-secondary; }
+	&--secondary-light { background-color: $cwg-secondary-light; }
+	&--secondary-accent { background-color: $cwg-secondary-accent; }
+	&--accent-dark { background-color: $cwg-accent-dark; }
+	&--accent { background-color: $cwg-accent; }
+	&--accent-light { background-color: $cwg-accent-light; }
+	&--accent-accent { background-color: $cwg-accent-accent; }
+	&--success { background-color: $cwg-success; }
+	&--warning { background-color: $cwg-warning; }
+	&--error { background-color: $cwg-error; }
+	&--info { background-color: $cwg-info; }
+	&--warm-100 { background-color: $cwg-warm-100; }
+	&--warm-90 { background-color: $cwg-warm-90; }
+	&--warm-50 { background-color: $cwg-warm-50; }
+	&--warm-40 { background-color: $cwg-warm-40; }
+	&--warm-30 { background-color: $cwg-warm-30; }
+	&--warm-20 { background-color: $cwg-warm-20; }
+	&--warm-10 { background-color: $cwg-warm-10; }
+	&--cool-100 { background-color: $cwg-cool-100; }
+	&--cool-90 { background-color: $cwg-cool-90; }
+	&--cool-80 { background-color: $cwg-cool-80; }
+	&--cool-40 { background-color: $cwg-cool-40; }
+	&--cool-30 { background-color: $cwg-cool-30; }
+	&--cool-20 { background-color: $cwg-cool-20; }
+	&--cool-10 { background-color: $cwg-cool-10; }
+	&--black { background-color: $cwg-black; }
+	&--true-black { background-color: $cwg-true-black; }
+	&--white { background-color: $cwg-white; }
+	&--true-white { background-color: $cwg-true-white; }
+	&--inherit { background-color: inherit; }
+}
+
+.u-bg-contrast {
+	&--primary-dark { background-color: $cwg-primary-dark; color: choose-contrast-color($cwg-primary-dark)}
+	&--primary { background-color: $cwg-primary; color: choose-contrast-color($cwg-primary)}
+	&--primary-light { background-color: $cwg-primary-light; color: choose-contrast-color($cwg-primary-light)}
+	&--primary-accent { background-color: $cwg-primary-accent; color: choose-contrast-color($cwg-primary-accent)}
+	&--secondary-dark { background-color: $cwg-secondary-dark; color: choose-contrast-color($cwg-secondary-dark)}
+	&--secondary { background-color: $cwg-secondary; color: choose-contrast-color($cwg-secondary)}
+	&--secondary-light { background-color: $cwg-secondary-light; color: choose-contrast-color($cwg-secondary-light)}
+	&--secondary-accent { background-color: $cwg-secondary-accent; color: choose-contrast-color($cwg-secondary-accent)}
+	&--accent-dark { background-color: $cwg-accent-dark; color: choose-contrast-color($cwg-accent-dark)}
+	&--accent { background-color: $cwg-accent; color: choose-contrast-color($cwg-accent)}
+	&--accent-light { background-color: $cwg-accent-light; color: choose-contrast-color($cwg-accent-light)}
+	&--accent-accent { background-color: $cwg-accent-accent; color: choose-contrast-color($cwg-accent-accent)}
+	&--success { background-color: $cwg-success; color: choose-contrast-color($cwg-success)}
+	&--warning { background-color: $cwg-warning; color: choose-contrast-color($cwg-warning)}
+	&--error { background-color: $cwg-error; color: choose-contrast-color($cwg-error)}
+	&--info { background-color: $cwg-info; color: choose-contrast-color($cwg-info)}
+	&--warm-100 { background-color: $cwg-warm-100; color: choose-contrast-color($cwg-warm-100)}
+	&--warm-90 { background-color: $cwg-warm-90; color: choose-contrast-color($cwg-warm-90)}
+	&--warm-50 { background-color: $cwg-warm-50; color: choose-contrast-color($cwg-warm-50)}
+	&--warm-40 { background-color: $cwg-warm-40; color: choose-contrast-color($cwg-warm-40)}
+	&--warm-30 { background-color: $cwg-warm-30; color: choose-contrast-color($cwg-warm-30)}
+	&--warm-20 { background-color: $cwg-warm-20; color: choose-contrast-color($cwg-warm-20)}
+	&--warm-10 { background-color: $cwg-warm-10; color: choose-contrast-color($cwg-warm-10)}
+	&--cool-100 { background-color: $cwg-cool-100; color: choose-contrast-color($cwg-cool-100)}
+	&--cool-90 { background-color: $cwg-cool-90; color: choose-contrast-color($cwg-cool-90)}
+	&--cool-80 { background-color: $cwg-cool-80; color: choose-contrast-color($cwg-cool-80)}
+	&--cool-40 { background-color: $cwg-cool-40; color: choose-contrast-color($cwg-cool-40)}
+	&--cool-30 { background-color: $cwg-cool-30; color: choose-contrast-color($cwg-cool-30)}
+	&--cool-20 { background-color: $cwg-cool-20; color: choose-contrast-color($cwg-cool-20)}
+	&--cool-10 { background-color: $cwg-cool-10; color: choose-contrast-color($cwg-cool-10)}
+	&--black { background-color: $cwg-black; color: choose-contrast-color($cwg-black)}
+	&--true-black { background-color: $cwg-true-black; color: choose-contrast-color($cwg-true-black)}
+	&--white { background-color: $cwg-white; color: choose-contrast-color($cwg-white)}
+	&--true-white { background-color: $cwg-true-white; color: choose-contrast-color($cwg-true-white)}
+}

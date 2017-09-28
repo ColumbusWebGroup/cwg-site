@@ -1,0 +1,5 @@
+.u-word {
+	&--normal { word-break: normal; }
+	&--wrap { word-break: break-all; }
+	&--nowrap { word-break: keep-all; }
+}

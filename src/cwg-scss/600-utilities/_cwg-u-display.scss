@@ -1,0 +1,25 @@
+.u-d {
+	&--n {              display: none; }
+	&--i {              display: inline; }
+	&--b {              display: block; }
+	&--ib {             display: inline-block; }
+	&--it {             display: inline-table; }
+}
+
+.u-d {
+	&--t {              display: table; }
+	&--t-c, &--tc {     display: table-cell; }
+	&--t-row {          display: table-row; }
+	&--t-row-group {    display: table-row-group; }
+	&--t-column {       display: table-column; }
+	&--t-column-group { display: table-column-group; }
+	
+	&--t-fixed {
+	  table-layout: fixed;
+	  width: 100%;
+	}
+	/*
+	  t-fixed will set table to full width and then
+	  all cells will be equal width
+	*/
+}

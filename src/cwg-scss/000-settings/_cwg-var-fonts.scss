@@ -1,0 +1,46 @@
+/*
+
+	Columbus Web Group Brand Colors
+	Syntax: Sass
+	Date: September 28, 2017
+
+
+	* * *
+
+	Fonts
+	Roboto is primary, PT Mono is both the secondary and monospace font.
+
+	This is to make it easier to import webfonts.
+
+	Why do these fonts have version numbers?
+	Because I used google-webfonts-helper to download all the font filetypes
+	
+	Link:
+	https://google-webfonts-helper.herokuapp.com
+
+	Check out 100-tools/_cwg-t-mixin-fontface.scss to see the function
+	Check out 100-tools/_cwg-g-fontface.scss to see the mixin in action
+
+
+*/
+
+$cwg-font-primary:                      'Roboto';
+$cwg-font-primary-file-path-300:        '/fonts/roboto-v16-latin/roboto-v16-latin-300';
+$cwg-font-primary-file-path-700:        '/fonts/roboto-v16-latin/roboto-v16-latin-700';
+$cwg-font-primary-file-path-regular:    '/fonts/roboto-v16-latin/roboto-v16-latin-regular';
+$cwg-font-primary-file-path-italic:     '/fonts/roboto-v16-latin/roboto-v16-latin-italic';
+ 
+$cwg-font-mono:                         'PT Mono';
+$cwg-font-mono-file-path:               '/fonts/pt-mono-v4-latin/pt-mono-v4-latin-regular';
+
+$cwg-font-secondary:                    'PT Mono';
+$cwg-font-secondary-file-path-regular:  $cwg-font-mono-file-path;
+
+
+
+
+$cwg-font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+$cwg-font-family-serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+$cwg-font-family-mono: "Fira Code", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;

@@ -1,0 +1,19 @@
+.u-anim-dur {
+	&--10  { animation-duration: 1s; }
+	&--20  { animation-duration: 2s; }
+	&--30  { animation-duration: 3s; }
+	&--40  { animation-duration: 4s; }
+	&--50  { animation-duration: 5s; }
+	&--60  { animation-duration: 6s; }
+	&--70  { animation-duration: 7s; }
+	&--80  { animation-duration: 8s; }
+	&--90  { animation-duration: 9s; }
+	&--100 { animation-duration: 10s; }
+
+	// Should be in it's own thing eventually
+}
+
+.u-anim {
+	&--forever { animation-iteration-count: infinite; }
+}
+

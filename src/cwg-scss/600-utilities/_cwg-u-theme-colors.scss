@@ -1,0 +1,37 @@
+.u {
+	&--primary-dark { color: $cwg-primary-dark; }
+	&--primary { color: $cwg-primary; }
+	&--primary-light { color: $cwg-primary-light; }
+	&--primary-accent { color: $cwg-primary-accent; }
+	&--secondary-dark { color: $cwg-secondary-dark; }
+	&--secondary { color: $cwg-secondary; }
+	&--secondary-light { color: $cwg-secondary-light; }
+	&--secondary-accent { color: $cwg-secondary-accent; }
+	&--accent-dark { color: $cwg-accent-dark; }
+	&--accent { color: $cwg-accent; }
+	&--accent-light { color: $cwg-accent-light; }
+	&--accent-accent { color: $cwg-accent-accent; }
+	&--success { color: $cwg-success; }
+	&--warning { color: $cwg-warning; }
+	&--error { color: $cwg-error; }
+	&--info { color: $cwg-info; }
+	&--warm-100 { color: $cwg-warm-100; }
+	&--warm-90 { color: $cwg-warm-90; }
+	&--warm-50 { color: $cwg-warm-50; }
+	&--warm-40 { color: $cwg-warm-40; }
+	&--warm-30 { color: $cwg-warm-30; }
+	&--warm-20 { color: $cwg-warm-20; }
+	&--warm-10 { color: $cwg-warm-10; }
+	&--cool-100 { color: $cwg-cool-100; }
+	&--cool-90 { color: $cwg-cool-90; }
+	&--cool-80 { color: $cwg-cool-80; }
+	&--cool-40 { color: $cwg-cool-40; }
+	&--cool-30 { color: $cwg-cool-30; }
+	&--cool-20 { color: $cwg-cool-20; }
+	&--cool-10 { color: $cwg-cool-10; }
+	&--black { color: $cwg-black; }
+	&--true-black { color: $cwg-true-black; }
+	&--white { color: $cwg-white; }
+	&--true-white { color: $cwg-true-white; }
+	&--inherit { color: inherit; }
+}

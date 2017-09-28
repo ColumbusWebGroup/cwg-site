@@ -1,0 +1,33 @@
+/* Measure is limited to ~66 characters */
+.u-measure {
+  max-width: 30em;
+}
+
+/* Measure is limited to ~80 characters */
+.u-measure-wide {
+  max-width: 34em;
+}
+
+/* Measure is limited to ~45 characters */
+.u-measure-narrow {
+  max-width: 20em;
+}
+
+/* Book paragraph style - paragraphs are indented with no vertical spacing. */
+.u-indent {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-small-caps {
+  font-variant: small-caps;
+}
+
+/* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
+
+.u-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

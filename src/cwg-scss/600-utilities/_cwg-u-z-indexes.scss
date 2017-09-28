@@ -1,0 +1,54 @@
+.u-z {
+	&--0 { z-index: $cwg-z-index-0; }
+	&--1 { z-index: $cwg-z-index-1; }
+	&--2 { z-index: $cwg-z-index-2; }
+	&--3 { z-index: $cwg-z-index-3; }
+	&--4 { z-index: $cwg-z-index-4; }
+	&--5 { z-index: $cwg-z-index-5; }
+	
+	&--100 { z-index: $cwg-z-index-100; }
+	&--200 { z-index: $cwg-z-index-200; }
+	&--300 { z-index: $cwg-z-index-300; }
+	&--400 { z-index: $cwg-z-index-400; }
+	&--500 { z-index: $cwg-z-index-500; }
+	&--600 { z-index: $cwg-z-index-600; }
+	&--700 { z-index: $cwg-z-index-700; }
+	&--800 { z-index: $cwg-z-index-800; }
+	&--900 { z-index: $cwg-z-index-900; }
+	&--999 { z-index: $cwg-z-index-999; }
+	&--1000 { z-index: $cwg-z-index-1000; }
+
+	&--9999 { z-index: $cwg-z-index-9999; }
+
+	&--max { z-index: $cwg-z-index-max; }
+}
+
+// Negative
+
+.u-z {
+	&--n0 { z-index: $cwg-z-index-n0; }
+	&--n1 { z-index: $cwg-z-index-n1; }
+	&--n2 { z-index: $cwg-z-index-n2; }
+	&--n3 { z-index: $cwg-z-index-n3; }
+	&--n4 { z-index: $cwg-z-index-n4; }
+	&--n5 { z-index: $cwg-z-index-n5; }
+	
+	&--n100 { z-index: $cwg-z-index-n100; }
+	&--n200 { z-index: $cwg-z-index-n200; }
+	&--n300 { z-index: $cwg-z-index-n300; }
+	&--n400 { z-index: $cwg-z-index-n400; }
+	&--n500 { z-index: $cwg-z-index-n500; }
+	&--n600 { z-index: $cwg-z-index-n600; }
+	&--n700 { z-index: $cwg-z-index-n700; }
+	&--n800 { z-index: $cwg-z-index-n800; }
+	&--n900 { z-index: $cwg-z-index-n900; }
+	&--n999 { z-index: $cwg-z-index-n999; }
+	&--n1000 { z-index: $cwg-z-index-n1000; }
+
+	&--n9999 { z-index: $cwg-z-index-n9999; }
+
+	&--nmax { z-index: $cwg-z-index-nmax; }
+}
+
+
+

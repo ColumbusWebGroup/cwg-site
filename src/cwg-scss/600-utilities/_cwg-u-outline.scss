@@ -1,0 +1,6 @@
+.u-out {
+	outline: 1px solid;
+
+	&--transparent { outline: 1px solid transparent; }
+	&--0           { outline: 0; }
+}

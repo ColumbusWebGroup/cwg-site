@@ -1,0 +1,63 @@
+/*
+
+	Columbus Web Group Brand Colors
+	Syntax: Sass
+	Date: September 28, 2017
+
+
+	* * *
+
+	Z-Index
+	Because making things 999 and 9999 and 101 can only go on so long
+
+	These are currently used in 600-utilities/_cwg-u-z-indexes.scss
+	
+*/
+
+$cwg-z-index-0: 0;
+$cwg-z-index-1: 1;
+$cwg-z-index-2: 2;
+$cwg-z-index-3: 3;
+$cwg-z-index-4: 4;
+$cwg-z-index-5: 5;
+
+$cwg-z-index-100: 100;
+$cwg-z-index-200: 200;
+$cwg-z-index-300: 300;
+$cwg-z-index-400: 400;
+$cwg-z-index-500: 500;
+$cwg-z-index-600: 600;
+$cwg-z-index-700: 700;
+$cwg-z-index-800: 800;
+$cwg-z-index-900: 900;
+$cwg-z-index-999: 999;
+$cwg-z-index-1000: 1000;
+
+$cwg-z-index-9999: 9999;
+
+$cwg-z-index-max: 2147483647;
+
+// Negative
+
+$cwg-z-index-n0: -0;
+$cwg-z-index-n1: -1;
+$cwg-z-index-n2: -2;
+$cwg-z-index-n3: -3;
+$cwg-z-index-n4: -4;
+$cwg-z-index-n5: -5;
+
+$cwg-z-index-n100: -100;
+$cwg-z-index-n200: -200;
+$cwg-z-index-n300: -300;
+$cwg-z-index-n400: -400;
+$cwg-z-index-n500: -500;
+$cwg-z-index-n600: -600;
+$cwg-z-index-n700: -700;
+$cwg-z-index-n800: -800;
+$cwg-z-index-n900: -900;
+$cwg-z-index-n999: -999;
+$cwg-z-index-n1000: -1000;
+
+$cwg-z-index-n9999: -9999;
+
+$cwg-z-index-nmax: -2147483647;

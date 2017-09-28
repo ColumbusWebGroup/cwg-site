@@ -1,0 +1,22 @@
+.u-bg {
+  &--c { 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  &--t {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+  &--r {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+  &--b { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+  &--l {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}

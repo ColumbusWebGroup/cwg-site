@@ -1,0 +1,6 @@
+.u-tt {
+	&--c { text-transform: capitalize; }
+	&--l { text-transform: lowercase; }
+	&--u { text-transform: uppercase; }
+	&--n { text-transform: none; }
+}

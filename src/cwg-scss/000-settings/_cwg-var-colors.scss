@@ -1,0 +1,95 @@
+/*
+
+	Columbus Web Group Brand Colors
+	Syntax: Sass
+	Date: September 28, 2017
+
+
+	* * *
+
+	Color Variables
+	For the three main groups, there are four variations for each.
+
+	Primary
+	1. Dark
+	2. Primary
+	3. Light
+	4. Accent
+
+	Secondary
+	1. Dark
+	2. Secondary
+	3. Light
+	4. Accent
+
+	Accent
+	1. Dark
+	2. Accent
+	3. Light
+	4. Accent Accent
+
+	* * *
+
+	Then there are Functional colors.
+
+	These can reference existing colors, or be a new color.
+	They describe what context they are for.
+
+	Functional
+	1. Success
+	2. Warning
+	3. Error
+	4. Info
+
+	* * *
+
+	With Neutrals, there is a Warm and Cool palette.
+
+	Lastly, there are the Black and Whites.
+
+	TODO: Define colors
+	/assets/cwg-color-palette.sketch
+
+*/
+
+$cwg-primary-dark:       #1A1918; // TODO
+$cwg-primary:            #1A1918; // TODO
+$cwg-primary-light:      #1A1918; // TODO
+$cwg-primary-accent:     #1A1918; // TODO
+
+$cwg-secondary-dark:     #1A1918; // TODO
+$cwg-secondary:          #E71D34;
+$cwg-secondary-light:    #1A1918; // TODO
+$cwg-secondary-accent:   #1A1918; // TODO
+
+$cwg-accent-dark:        #1A1918; // TODO
+$cwg-accent:             #1A1918; // TODO
+$cwg-accent-light:       #1A1918; // TODO
+$cwg-accent-accent:      #1A1918; // TODO
+
+$cwg-success:            #2A8719;
+$cwg-warning:            #1A1918; // TODO
+$cwg-error:              #1A1918; // TODO
+$cwg-info:               #1A1918; // TODO
+
+$cwg-warm-100:           #1A1918; // TODO
+$cwg-warm-90:            #1A1918; // TODO
+$cwg-warm-50:            #1A1918; // TODO
+$cwg-warm-40:            #1A1918; // TODO
+$cwg-warm-30:            #1A1918; // TODO
+$cwg-warm-20:            #1A1918; // TODO
+$cwg-warm-10:            #1A1918; // TODO
+
+$cwg-cool-100:           #1A1918; // TODO
+$cwg-cool-90:            #1A1918; // TODO
+$cwg-cool-80:            #1A1918; // TODO
+$cwg-cool-40:            #1A1918; // TODO
+$cwg-cool-30:            #1A1918; // TODO
+$cwg-cool-20:            #1A1918; // TODO
+$cwg-cool-10:            #1A1918; // TODO
+
+$cwg-black:              #1A1918;
+$cwg-true-black:         #000000;
+
+$cwg-white:              #fdfdfd;
+$cwg-true-white:         #ffffff;

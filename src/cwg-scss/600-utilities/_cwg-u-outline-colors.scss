@@ -1,0 +1,38 @@
+.u-out {
+	&--primary-dark { outline-color: $cwg-primary-dark; }
+	&--primary { outline-color: $cwg-primary; }
+	&--primary-light { outline-color: $cwg-primary-light; }
+	&--primary-accent { outline-color: $cwg-primary-accent; }
+	&--secondary-dark { outline-color: $cwg-secondary-dark; }
+	&--secondary { outline-color: $cwg-secondary; }
+	&--secondary-light { outline-color: $cwg-secondary-light; }
+	&--secondary-accent { outline-color: $cwg-secondary-accent; }
+	&--accent-dark { outline-color: $cwg-accent-dark; }
+	&--accent { outline-color: $cwg-accent; }
+	&--accent-light { outline-color: $cwg-accent-light; }
+	&--accent-accent { outline-color: $cwg-accent-accent; }
+	&--success { outline-color: $cwg-success; }
+	&--warning { outline-color: $cwg-warning; }
+	&--error { outline-color: $cwg-error; }
+	&--info { outline-color: $cwg-info; }
+	&--warm-100 { outline-color: $cwg-warm-100; }
+	&--warm-90 { outline-color: $cwg-warm-90; }
+	&--warm-50 { outline-color: $cwg-warm-50; }
+	&--warm-40 { outline-color: $cwg-warm-40; }
+	&--warm-30 { outline-color: $cwg-warm-30; }
+	&--warm-20 { outline-color: $cwg-warm-20; }
+	&--warm-10 { outline-color: $cwg-warm-10; }
+	&--cool-100 { outline-color: $cwg-cool-100; }
+	&--cool-90 { outline-color: $cwg-cool-90; }
+	&--cool-80 { outline-color: $cwg-cool-80; }
+	&--cool-40 { outline-color: $cwg-cool-40; }
+	&--cool-30 { outline-color: $cwg-cool-30; }
+	&--cool-20 { outline-color: $cwg-cool-20; }
+	&--cool-10 { outline-color: $cwg-cool-10; }
+	&--black { outline-color: $cwg-black; }
+	&--true-black { outline-color: $cwg-true-black; }
+	&--white { outline-color: $cwg-white; }
+	&--true-white { outline-color: $cwg-true-white; }
+	
+	&--inherit { backgorund-color: inherit; }
+}

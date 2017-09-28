@@ -1,0 +1,22 @@
+$mixin-gradient-color:    $cwg-black  !default;
+$mixin-alpha-from:        1       !default;
+$mixin-alpha-to:          0       !default;
+
+@mixin linear-gradient-opacity($mixin-gradient-color: $cwg-black, $mixin-alpha-from: 1, $mixin-alpha-to: 0) {
+    background-image: linear-gradient( rgba($mixin-gradient-color, $mixin-alpha-from) 0%, rgba($mixin-gradient-color, $mixin-alpha-to) 100% );
+}
+
+@mixin scrim-gradient($mixin-gradient-color: $cwg-black, $mixin-alpha-from: 1, $mixin-alpha-to: 0) {
+  $diff: $mixin-alpha-from - $mixin-alpha-to;
+  background-image: linear-gradient(
+    rgba($mixin-gradient-color, $mixin-alpha-from) 0%,
+    rgba($mixin-gradient-color, $mixin-alpha-from - $diff*0.7) 50%,
+    rgba($mixin-gradient-color, $mixin-alpha-from - $diff*0.85) 65%,
+    rgba($mixin-gradient-color, $mixin-alpha-from - $diff*0.925) 75.5%,
+    rgba($mixin-gradient-color, $mixin-alpha-from - $diff*0.963) 82.85%,
+    rgba($mixin-gradient-color, $mixin-alpha-from - $diff*0.981) 88%,
+    rgba($mixin-gradient-color, $mixin-alpha-to) 100%
+  );
+}
+
+// https://codepen.io/lhermann/pen/qmpMGQ?editors=1100

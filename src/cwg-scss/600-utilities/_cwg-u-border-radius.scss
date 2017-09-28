@@ -1,0 +1,32 @@
+.u-br {
+	&--0 { border-radius: $cwg-border-radius-0; }
+	&--1 { border-radius: $cwg-border-radius-1; }
+	&--2 { border-radius: $cwg-border-radius-2; }
+	&--3 { border-radius: $cwg-border-radius-3; }
+	&--4 { border-radius: $cwg-border-radius-4; }
+	&--5 { border-radius: $cwg-border-radius-5; }
+	&--6 { border-radius: $cwg-border-radius-6; }
+	&--7 { border-radius: $cwg-border-radius-7; }
+	&--8 { border-radius: $cwg-border-radius-8; }
+    &--9 { border-radius: $cwg-border-radius-9; }
+	
+	&--100 { border-radius: $cwg-border-radius-100; }
+	&--pil { border-radius: $cwg-border-radius-pill; }
+
+	&--bottom {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	&--top {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	&--right {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	&--left {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+}

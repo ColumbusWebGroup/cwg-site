@@ -1,0 +1,430 @@
+﻿/*!
+  Stylesheet for Columbus Web Group
+  Syntax: Sass
+  Created by: Sean Patrick John Paul George Ringo Doran
+  Date: September 28, 2017
+*/
+
+/*
+    README:
+    Scroll past the shield at the bottom of this file.
+
+
+    TABLE OF CONTENTS:
+
+    cwg-scss/
+    |-- 0.00-settings/                # Variables
+    |-- 1.00-tools/                   # Functions and Mixins
+    |-- 2.00-generic/                 # Global Styles
+    |-- 3.00-elements/                # Raw HTML
+    |-- 4.00-objects/                 # Layout and Structure
+    |-- 5.00-components/              # Individual Components
+    |-- 6.00-utilities/               # They do one thing
+    |-- 6.66-shame/                   # Keep our shame in one place
+    |-- 9.00-vendor/                  # Any third-party CSS
+    |-- 9.10-vendor-extensions/       # Extending and modifying vendor styles
+    |-- 9.11-debug/                   # Debugging classes and pesticide
+    |-- 9.99-scratch/                 # Your scratchpad and sandbox
+    --styles.scss                     # Importing every _partial.scss file
+
+*/
+
+
+
+
+
+/* ================================== 000 =================================== */
+/*
+
+    000-settings
+    Where the $variables live.
+        
+    Variables need to be loaded first so they can be used by every other partial
+    in the project.
+
+*/
+/* ================================== 000 =================================== */
+
+@import "000-settings/cwg-var-border-radius";
+@import "000-settings/cwg-var-spacing";
+@import "000-settings/cwg-var-typography";
+
+@import "000-settings/cwg-var-colors";
+@import "000-settings/cwg-var-fonts";
+@import "000-settings/cwg-var-z-indexes";
+
+
+
+
+
+/* ================================== 100 =================================== */
+/*
+
+    100-tools
+    Functions and Mixins
+    
+    Second in line so they can reference variables, but still be used in every
+    partial after this is imported.
+
+*/
+/* ================================== 100 =================================== */
+
+@import "100-tools/cwg-t-function-color-contrast";
+
+@import "100-tools/cwg-t-mixin-fontFace";
+@import "100-tools/cwg-t-mixin-animations";
+@import "100-tools/cwg-t-mixin-scrim-gradients";
+@import "100-tools/cwg-t-mixin-linear-gradient";
+@import "100-tools/cwg-t-mixin-retina";
+
+
+
+
+
+/* ================================== 200 =================================== */
+/*
+
+    200-generic
+    Global styles (like a reset)
+    
+    Font-face, box-sizing, normalize, etc.
+
+*/
+/* ================================== 200 =================================== */
+
+@import "200-generic/cwg-g-fontface";
+@import "200-generic/cwg-g-normalize";
+
+
+
+
+
+/* ================================== 300 =================================== */
+/*
+
+    300-elements
+    Raw HTML (careful)
+    
+    Bare element defaults like headings and links. Should be minimal as possible
+    since it is so far reaching.
+
+*/
+/* ================================== 300 =================================== */
+
+// @import "300-elements/example";
+
+
+
+
+
+/* ================================== 400 =================================== */
+/*
+
+    400-objects
+    Layout and structure classes
+    
+    Things like wrappers, grids, and positioning. No colors or branding allowed
+    for better flexibility and reuse of core objects.
+    
+    Use the o- prefix.
+
+*/
+/* ================================== 400 =================================== */
+
+// @import "400-objects/example";
+
+
+
+
+
+/* ================================== 500 =================================== */
+/*
+
+    500-components
+    Individual components
+    
+    Finally, the actual parts of the interface. Things like navigation, buttons,
+    tabs, etc.
+    
+    Follow BEM naming convention, along with the c- prefix.
+
+*/
+/* ================================== 500 =================================== */
+
+
+
+
+
+/* ================================== 600 =================================== */
+/*
+
+    600-utilities
+    They do one thing, and one thing very well.
+    
+    The smarter older sibling to inline styles. The basic building blocks for
+    almost anything you can imagine. Feel free to use these to create a
+    component for the first time, and then when there's time we can refactor it
+    into a real component if it'd be smart to do so.
+
+    These have the u- prefix.
+
+*/
+/* ================================== 600 =================================== */
+
+@import "600-utilities/cwg-u-absolute-coordinates";
+@import "600-utilities/cwg-u-animation-delay";
+@import "600-utilities/cwg-u-animation-duration";
+@import "600-utilities/cwg-u-aspect-ratios";
+@import "600-utilities/cwg-u-bg-position";
+@import "600-utilities/cwg-u-bg-size";
+@import "600-utilities/cwg-u-border-colors";
+@import "600-utilities/cwg-u-border-radius";
+@import "600-utilities/cwg-u-border-style";
+@import "600-utilities/cwg-u-borders";
+@import "600-utilities/cwg-u-box-shadow";
+@import "600-utilities/cwg-u-clears";
+@import "600-utilities/cwg-u-code";
+@import "600-utilities/cwg-u-display";
+@import "600-utilities/cwg-u-floats";
+@import "600-utilities/cwg-u-font-family";
+@import "600-utilities/cwg-u-font-style";
+@import "600-utilities/cwg-u-font-weight";
+@import "600-utilities/cwg-u-font-size";
+@import "600-utilities/cwg-u-heights";
+@import "600-utilities/cwg-u-hover-dim";
+@import "600-utilities/cwg-u-hover-grow";
+@import "600-utilities/cwg-u-hover-shadow";
+@import "600-utilities/cwg-u-images";
+@import "600-utilities/cwg-u-letter-spacing";
+@import "600-utilities/cwg-u-margins";
+@import "600-utilities/cwg-u-margins-negative";
+@import "600-utilities/cwg-u-opacity";
+@import "600-utilities/cwg-u-outline-colors";
+@import "600-utilities/cwg-u-outline";
+@import "600-utilities/cwg-u-overflow";
+@import "600-utilities/cwg-u-padding";
+@import "600-utilities/cwg-u-position";
+@import "600-utilities/cwg-u-positioning";
+@import "600-utilities/cwg-u-rotations";
+@import "600-utilities/cwg-u-svg-filters";
+@import "600-utilities/cwg-u-text-align";
+@import "600-utilities/cwg-u-text-decoration";
+@import "600-utilities/cwg-u-text-shadow";
+@import "600-utilities/cwg-u-text-transform";
+@import "600-utilities/cwg-u-theme-bg-colors";
+@import "600-utilities/cwg-u-theme-colors";
+@import "600-utilities/cwg-u-theme-pseudo-colors";
+@import "600-utilities/cwg-u-transitions";
+@import "600-utilities/cwg-u-typography";
+@import "600-utilities/cwg-u-vertical-align";
+@import "600-utilities/cwg-u-visibility";
+@import "600-utilities/cwg-u-white-space";
+@import "600-utilities/cwg-u-widths";
+@import "600-utilities/cwg-u-wordbreak";
+@import "600-utilities/cwg-u-z-indexes";
+
+
+
+
+
+/* ================================== 666 =================================== */
+/*
+
+    666-shame
+    All of our shameful hacks, conveniently in one spot.
+    
+    There comes a time and place where you just have to write some dirty code to
+    get something to work right. It's ok, as long as it's contained.
+
+    Please comment your shame :)
+
+    NOTE:
+    To keep track of our shame, begin every shameful class with an underscore _
+
+    EXAMPLE:
+    // To compensate for the fixed header
+    ._bootstrap-id-hack {
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+
+*/
+/* ================================== 666 =================================== */
+
+@import "666-shame/cwg-shame";
+
+
+
+
+
+/* ================================== 900 =================================== */
+/*
+
+    900-vendor
+    Any third-party CSS
+    
+    Import prepackaged components developed by others, but DON'T modify them.
+    That'll only cause headaches for everybody in the future.
+
+    And that's where 910-vendor-extensions comes in :)
+
+*/
+/* ================================== 900 =================================== */
+
+@import "900-vendor/animate";
+
+
+
+
+
+/* ================================== 910 =================================== */
+/*
+
+    910-vendor-extensions
+    Extending and modifying vendor styles
+    
+    Here is where you overwrite or modify those vendor styles in a safe and
+    contained way.
+
+
+    EXAMPLE FILE ARCHITECTURE:
+
+    cwg-scss
+    |-- 900-vendor/                            # CSS or Sass from other projects
+    |    |-- _animate.scss
+    |    |-- _colorpicker.scss
+    |    |-- _jquery.ui.core.scss
+    |    ...
+    |-- 910-vendor-extensions/                 # Extensions for vendor files
+    |    |-- _animate-extension.scss
+    |    |-- _colorpicker-extension.scss
+    |    |-- _jquery.ui.core-extension.scss
+    |    ...
+    |
+    --styles.scss
+
+*/
+/* ================================== 910 =================================== */
+
+// @import "910-vendor-extensions/example-extension.scss";
+
+
+
+
+
+/* ================================== 911 =================================== */
+/*
+
+    911-debug
+    Three types of ways to debug your UI
+    
+
+    1. Children Classes
+       Outlines every child element with a 1px solid color
+            .u-debug
+            .u-debug--black
+            .u-debug--white
+
+
+    2. Grid Classes
+       Adds a grid as a background image for lining things up
+       
+       Transparent
+            .u-debug-grid
+            .u-debug-grid--16
+       Solid
+            .u-debug-grid--solid
+            .u-debug-grid--16-solid
+
+    3. Debug Everything (Pesticide)
+       Exactly how it sounds. It will outline everything, without you having to
+       add classes to anything.
+
+*/
+/* ================================== 911 =================================== */
+
+@import "911-debug/cwg-911-debug-children-classes";
+@import "911-debug/cwg-911-debug-grid-classes";
+// @import "911-debug/cwg-911-uncomment-to-debug-everything";
+
+
+
+
+
+/* ================================== 999 =================================== */
+/*
+
+    999-scratch
+    Like a scratchpad, stuff here is temporary
+    
+    Whether you're working on a new component, or just trying things out, this
+    is a safe space to work on things. Make sure you eventually move the styles
+    to where they *SHOULD* live, and delete whatever you don't need anymore.
+
+    I encourage you to create your own scratch file as you work so you have your
+    own sandbox.
+
+*/
+/* ================================== 999 =================================== */
+
+// @import "999-scratch/cwg-scratch-general";
+// @import "999-scratch/cwg-scratch-spjpgrd";
+
+
+
+
+
+/* ================================= README ================================= */
+
+/*
+    Q&A
+
+    Q: Why are there dashes and underscores everywhere?
+    A: Because of BEM (Block-Element-Modifier). Here are some nice articles to
+    get started
+    https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+    https://css-tricks.com/bem-101/
+    http://bem.nicetransition.com/bem--cheat-sheet.pdf
+
+
+
+    Q: How should I name things?
+    A: Hopefully functionally :)
+    https://seesparkbox.com/foundry/naming_css_stuff_is_really_hard
+
+
+
+    Q: What's up with prefixes on classes?
+    A: Namespacing so it's easier for future humans to work on this project.
+    https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces
+
+
+
+    Q: Why is everything setup the way it is?
+    A: Thoughtfully borrowed from Sparkbox
+    http://bradfrost.com/blog/post/atomic-web-design/
+    https://seesparkbox.com/foundry/thoughtful_css_architecture
+    https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+
+
+
+    Q: Why do almost all the files start with wt?
+    A: To signify they relate to the Wiretap app. This makes it easy to swap
+    partials in and out in the future and confidentally know what files relates
+    to what.
+    https://www.youtube.com/watch?v=WxGNTf84v58
+
+
+
+    Q: Whoa, there's a lot of stuff in 600-utilities. Why?
+    A: Think of them like a huge pile of Lego blocks. Use them to create what
+    you want, and once patterns emerge naturally, we can create components to
+    add to 500-components from those styles.
+    http://tachyons.io
+
+
+
+    Q: How do you keep track of selectors and properties?
+    A: The handy CSS Almanac
+    https://css-tricks.com/almanac/
+*/

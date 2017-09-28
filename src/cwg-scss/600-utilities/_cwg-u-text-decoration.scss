@@ -1,0 +1,9 @@
+.u-td {
+	&--l { text-decoration: line-through; }
+	&--u { text-decoration: underline; }
+	&--n { text-decoration: none; }
+	
+	&--never:active, &:focus, &:hover {
+	    text-decoration: none !important;
+	}
+}

@@ -1,0 +1,11 @@
+.u-cf {
+	*zoom: 1;
+	&:before,
+	&:after { content: " "; display: table; }
+	&:after { clear: both; }
+}
+
+.u-cl { clear: left; }
+.u-cr { clear: right; }
+.u-cb { clear: both; }
+.u-cn { clear: none; }

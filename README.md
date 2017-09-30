@@ -92,3 +92,10 @@ available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.ht
 [homepage]: https://www.contributor-covenant.org
 [cwg-email]: columbuswebgroup@gmail.com
 [cwg-gitter]: https://gitter.im/ColumbusWebGroup
+
+* * *
+
+# Contributors
+
+Thank you to:
+- [Angie Buccilli](https://github.com/angbuccilli)
